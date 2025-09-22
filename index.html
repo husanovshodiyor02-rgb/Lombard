@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lombard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+<body>
+    <header class="w-[90%] m-auto justify-between flex items-center p-[30px_50px]  z-[999] bg-white">
+            <img src="./img/logo.png" alt="">
+
+            <ul class="flex gap-[30px] md:flex xs:hidden">
+                <li><a class="font-family font-medium text-base text-[#202020]" href="#">О программе</a></li>
+                <li><a class="font-family font-medium text-base text-[#202020]" href="#">Тарифы и цены</a></li>
+                <li><a class="font-family font-medium text-base text-[#202020]" href="#">Контакты</a></li>
+            </ul>
+
+            <button class="border-[#0862ee] w-60 h-12 px-4 py-2 rounded-[10px] border-2 border-solid font-bold text-base text-[color:var(--siniy)] md:flex xs:hidden">Попробовать бесплатно</button>
+            <div class="md:flex xs:hidden">
+                <div>
+                    <h1 class="font-family font-medium text-[13px] text-[color:var(--siniy)]">Заказать обратный звонок</h1>
+                <a class="font-family font-bold text-xl text-right text-[color:var(--chernyy)]" href="tel.+7 (495) 677-95-51">+7 (495) 677-95-51</a>
+                </div>
+            </div>
+            <button class="md:hidden"><i class="fa-solid fa-bars"></i></button>
+    </header>
+    
+
+    <section class="w-[90%] m-auto bg-white md:px-20">
+        <div class="flex flex-col lg:flex-row justify-between gap-10">
+          
+         
+          <div class="space-y-8">
+            <h2 class="text-2xl font-semibold text-gray-800">Открыты для общения</h2>
+            
+            <div class="flex items-start gap-4 hover:bg-gray-100 p-3 rounded-lg transition">
+              <div class="text-blue-600 text-3xl"><img src="./img/dl1.png" alt=""></div>
+              <div>
+                <p class="font-medium text-gray-800">Пишите нам</p>
+                <p class="text-gray-600 text-sm">в мессенджеры на <a href="tel:+79680965940" class="text-blue-600 hover:underline">+7 (968) 096-59-40</a></p>
+                <div class="flex gap-2 mt-1">
+                  <a href="#"><img src="./img/tg.png" alt="Telegram" class="w-6 h-6 hover:scale-110 transition"></a>
+                  <a href="#"><img src="./img/wt.png" alt="WhatsApp" class="w-6 h-6 hover:scale-110 transition"></a>
+                </div>
+              </div>
+            </div>
+      
+            
+            <div class="flex items-start gap-4 hover:bg-gray-100 p-3 rounded-lg transition">
+              <div class="text-blue-600 text-3xl"><img src="./img/dl2.png" alt=""></div>
+              <div>
+                <p class="font-medium text-gray-800">Звоните</p>
+                <p class="text-gray-600 text-sm">с 10-00 до 18-00 по Мск</p>
+                <p class="text-gray-800 font-semibold text-lg mt-1">+7 (495) 677-95-51</p>
+              </div>
+            </div>
+      
+            
+            <div class="flex items-start gap-4 hover:bg-gray-100 p-3 rounded-lg transition">
+              <div class="text-blue-600 text-3xl"><img src="./img/dl3.png" alt=""></div>
+              <div>
+                <p class="font-medium text-gray-800">Приезжайте</p>
+                <p class="text-gray-600 text-sm">Москва, ул. 3-я Северная линия, д. 14, оф. 2</p>
+                <a href="#" class="text-blue-600 hover:underline text-sm">Мы на Яндекс.Картах</a>
+              </div>
+            </div>
+          </div>
+      
+          
+          <div class="bg-white shadow-lg rounded-xl p-8 w-full lg:w-1/2">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Ответим на любые вопросы:</h3>
+            <p class="text-blue-600 mb-4">расскажем, покажем и дадим попробовать</p>
+            <p class="text-gray-600 mb-6 text-sm">Проведём онлайн демонстрацию по Zoom!</p>
+      
+            <form class="space-y-4">
+              <input type="text" placeholder="Как к вам обращаться (ваше имя)" class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <input type="text" placeholder="Телефон, чтобы мы могли перезвонить" class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <input type="email" placeholder="Электронная почта для отправки ответа" class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+              <textarea rows="3" placeholder="Ваш вопрос" class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+              <button type="submit" class="w-full bg-blue-600 text-white font-semibold py-2 rounded hover:bg-blue-700 transition">Отправить сообщение</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bg-[#325488] text-white md:px-20">
+        <div class="w-[90%] m-auto py-10  grid grid-cols-1 md:grid-cols-3 gap-10">
+      
+          <div>
+            <img src="./img/logo2.png" alt="">
+            <p class="font-family mt-4 text-sm text-[color:var(--belyy)]text-[color:var(--belyy)] ">Лучшая программа для автоматизации автоломбарда</p>
+            <p class="font-family mt-6 text-xs text-[color:var(--belyy)]text-[color:var(--belyy)] ">&copy; 2023, XLombard</p>
+            <a href="#" class="font-family text-xs text-[color:var(--belyy)]text-[color:var(--belyy)]  hover:underline">Конфиденциальность и обработка персональных данных</a>
+          </div>
+      
+     
+          <div class="flex justify-between text-sm">
+            <div>
+              <h4 class="font-family font-semibold mb-2">О продукте</h4>
+              <ul class="space-y-1">
+                <li><a href="#" class="font-family text-[color:var(--belyy)] hover:text-blue-400">Возможности</a></li>
+                <li><a href="#" class="font-family text-[color:var(--belyy)] hover:text-blue-400">Преимущества</a></li>
+                <li><a href="#" class="font-family text-[color:var(--belyy)] hover:text-blue-400">Поддержка</a></li>
+                <li><a href="#" class="font-family text-[color:var(--belyy)] hover:text-blue-400">Обновления</a></li>
+                <li><a href="#" class="font-family text-[color:var(--belyy)] hover:text-blue-400">Интеграции</a></li>
+                <li><a href="#" class="font-family text-[color:var(--belyy)] hover:text-blue-400">Документация</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="font-semibold mb-2">О нас</h4>
+              <ul class="space-y-1">
+                <li><a href="#" class="font-family text-[color:var(--belyy)] hover:text-blue-400">Константы</a></li>
+                <li><a href="#" class="font-family text-[color:var(--belyy)] hover:text-blue-400">Экспертиза</a></li>
+              </ul>
+              <h4 class="font-family font-semibold mt-6 mb-2">Тарифы и цены</h4>
+            </div>
+          </div>
+      
+
+          <div>
+            <a href="#" class="inline-block bg-[#325488] border border-[white] text-white font-semibold px-5 py-2 rounded hover:bg-[#9caec9] hover:text-white transition mb-4">Попробовать бесплатно</a>
+            <p class="font-family text-lg font-bold">+7 (495) 677-95-51</p>
+            <a href="#" class="font-family text-sm text-[color:var(--belyy)] hover:underline">Заказать обратный звонок</a>
+            <div class="flex gap-3 mt-4">
+              <a href="https://www.telegram.com/"><img src="./img/ft1.png" alt="Telegram" class="w-6 h-6 hover:scale-110 transition"></a>
+              <a href="https://www.whatsapp.com/"><img src="./img/ft2.png" alt="WhatsApp" class="w-6 h-6 hover:scale-110 transition"></a>
+            </div>
+          </div>
+      
+        </div>
+      </footer>      
+</body>
+</html>

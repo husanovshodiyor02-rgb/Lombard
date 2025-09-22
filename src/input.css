@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap');
+
+@theme {
+  --font-family: 'Inter', sans-serif;
+
+    --breakpoint-xs: 300px;
+
+	--siniy: #0862ee;
+	--chernyy: #202020;
+	--seryy: #72798c;
+	--zelenyy-svetlyy: #a7e9be;
+	--sirenevyy: #cad2ff;
+	--sin: #cfe5ff;
+	--belyy: #fff;
+}
